@@ -1,0 +1,235 @@
+# ============================================
+# 🔥 Python 通用忽略规则
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================
+# 📊 数据文件（太大，不适合 Git）
+# ============================================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+
+# 保留少数代表性提交文件（如果你想把它们也忽略，去掉下面的 !）
+!submissions/*.csv
+
+# ============================================
+# 🤖 模型文件（太大，不适合 Git）
+# ============================================
+*.pkl
+*.joblib
+*.model
+*.sav
+*.h5
+*.pb
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# CatBoost 模型文件
+*.cbm
+
+# ============================================
+# 🗂️ 缓存 & 临时目录
+# ============================================
+catboost_info/
+kt_dir/
+untitled_project/
+v10/
+v11/
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Jupyter 输出缓存
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================================
+# 🧪 实验 & 测试文件
+# ============================================
+test/
+tests/
+experiments/
+sandbox/
+scratch/
+temp/
+tmp/
+
+# ============================================
+# 🛠️ IDE / 编辑器
+# ============================================
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+
+# ============================================
+# 📦 打包相关
+# ============================================
+*.whl
+*.tar.gz
+*.zip
+*.rar
+
+# ============================================
+# 🔐 敏感信息
+# ============================================
+*.key
+*.pem
+*.crt
+*.p12
+.secrets
+.env.local
+.env.*.local
