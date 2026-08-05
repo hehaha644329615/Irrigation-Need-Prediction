@@ -15,7 +15,7 @@
 | 数据规模 | 训练集 900,000 条（官方 63 万 + 额外 27 万），测试集 270,000 条 |
 | 评估指标 | Balanced Accuracy（平衡准确率）|
 | 最终成绩 | **Private Score: 0.98149** / Public Score: 0.98152 |
-| 最终排位 | **223 / 4316** / 64 / 4316 |
+| 最终排位 | **Private: 223 / 4316** / Public: 64 / 4316 |
 | 排名 | Top 5% |
 
 ![alt text](<images/Public LB截图.png>)
